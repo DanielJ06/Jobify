@@ -1,0 +1,22 @@
+<%- include('header') %>
+
+<body>
+<h2>
+    Open roles:
+</h2>
+<a href="/admin/vagas/nova">Create new role</a>
+
+<div>
+    <ul>
+        <% vagas.forEach( vaga => { %>
+            <li>
+                <%- vaga.titulo %>
+                <a href="/admin/vagas/delete/<%- vaga.id %>"> Excluir</a>
+                <a href="/admin/vagas/edit/<%- vaga.id %>"> Editar</a>
+            </li>
+        <% }) %>
+    </ul>
+</div>
+
+</body>
+</html>

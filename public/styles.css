@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+li {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    padding: 8px;
+    background-color: #c4c4c4;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+#desc {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 15px 0 4px 0;
+}
+
+input {
+    display: block;
+    width: 250px;
+    padding: 4px;
+}
+
+textarea {
+    width: 250px;
+    height: 350px;
+    resize: none;
+}
+
+button {
+    margin-top: 10px;
+}

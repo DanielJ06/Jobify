@@ -1,0 +1,22 @@
+<%- include('header') %>
+
+<body>
+    <h2>
+        Departments:
+    </h2>
+    <a href="/admin/categorias/nova">Create new department</a>
+    
+    <div>
+        <ul>
+            <% categorias.forEach( catg => { %>
+                <li>
+                    <%- catg.categoria %>
+                    <a href="/admin/categorias/delete/<%- catg.id %>"> Excluir</a>
+                    <a href="/admin/categorias/edit/<%- catg.id %>"> Editar</a>
+                </li>
+            <% }) %>
+        </ul>
+    </div>
+    
+    </body>
+    </html>
